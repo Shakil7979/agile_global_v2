@@ -392,6 +392,13 @@
     .mobile_menu_child a { 
         font-size: 14px; 
     }
+    .slide_down_icon img {
+        width: 25px;
+    }
+    .slider_carousel .owl-dot span {
+        width: 10px !important;
+        height: 10px !important;
+    }
     /* .team_content .after_h3 a,
     .team_content h4,
     .team_content h3,
