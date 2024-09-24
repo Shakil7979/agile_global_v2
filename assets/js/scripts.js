@@ -78,10 +78,21 @@ $(document).ready(function(){
 		items:3,
         margin : 20,
 		loop:true,
-		nav: true,
-		dots:true,
+		nav: false,
+		dots:false,
 		autoplay:true,
-		navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
+		navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+        responsive : { 
+            0 : {
+                items:1,
+            }, 
+            768 : { 
+		        items:2,
+            },
+            991 : { 
+		        items:3,
+            }
+        }
 	});
 
 	$('.back_to_top').click(function() { 

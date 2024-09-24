@@ -1,11 +1,15 @@
 @media all and (max-width: 1400px){
     .slide_down_icon a i {
         font-size: 44px; 
-    }
+    } 
+    
 }
 @media all and (max-width: 1199px){
     .logo img {
         width: 175px;
+    }
+    .made_single {
+        height: 455px;
     }
     .menu ul { 
         gap: 16px;
@@ -22,6 +26,13 @@
     .subscribe_form input { 
         width: 251px; 
     }
+
+    .overview_img { 
+        gap: 35px; 
+    }
+    .overview_img img {
+        object-fit: cover;
+    }
     
 }
 
@@ -37,7 +48,21 @@
 	.slider_3 { 
         background: #000816;
     }
+    .made_single { 
+        height: auto; 
+        padding-bottom: 36px;
+    }
+    .right_form_contact { 
+        right: -58px; 
+    }
+    .contact_next_btn button, .contact_btn_prev button { 
+        padding: 10px !important; 
+    }
     .slider_box { 
+        flex-direction: column;
+    }
+    .overview_img {
+        gap: 24px;
         flex-direction: column;
     }
     .slider_items {
@@ -367,6 +392,15 @@
     .mobile_menu_child a { 
         font-size: 14px; 
     }
+    /* .team_content .after_h3 a,
+    .team_content h4,
+    .team_content h3,
+    .team_content p{
+        color: inherit !important;
+    } */
+    .career_img {
+        display: none;
+    }
     .dorp_menu_left h3 {
         font-size: 18px; 
     }
@@ -390,16 +424,29 @@
     }
     .single_deep_item { 
         width: 100%;
-    }
-    .team_area { 
-        background: #F4F3F3;
-    }
+    } 
     .career_img{ 
         display: block;
     }
-    .made_carosel_content { 
-        margin-top: 64px;
+    .team_area {
+        height: auto;
     }
+    .team_area::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0,0,0,0.5);
+    }
+    .team_content { 
+        position: relative;
+        z-index: 9;
+    }
+    .global_award_img img {
+        width: 100%;
+    } 
     .footer_top_row { 
         flex-direction: column;
         gap: 40px;
@@ -463,6 +510,9 @@
         font-size: 25px;
         line-height: 30px;
         margin: 8px 0;
+    }
+    .overview_title p { 
+        margin-bottom: 12px;
     }
     .form_hover { 
         padding: 15px; 

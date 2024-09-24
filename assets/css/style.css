@@ -340,11 +340,17 @@ ul li a,a{
 .single_work_item{ 
 	background: #fff;
 	height: 100%;
+	overflow: hidden;
 }
 
-.single_deep_img,
-.single_work_img{
+.single_deep_img {
 	overflow: hidden; 
+}
+ 
+
+
+.single_work_img {
+	overflow: hidden;
 }
 
 .single_deep_img img,
@@ -576,10 +582,28 @@ ul li a,a{
 	height: 100vh;
 }
 
-.team_area {
-	/* padding: 150px 0 250px 0; */
-	background: url(../images/team/bg.png) no-repeat scroll center center / cover;
+.team_area { 
+	background: url(../images/team/join.png) no-repeat fixed center center / cover;
 	height: 100vh;
+	position: relative;
+}
+.team_area::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+}
+
+.overview_img img { 
+	object-fit: cover;
+}
+
+.team_content { 
+	position: relative;
+	z-index: 9;
 }
 
 .slider_carousel .owl-dots {
@@ -820,20 +844,20 @@ ul li a,a{
 }
 
 .made_carosel_content > p {
-	font-size: 20px;
+	font-size: 18px;
 	color: #3b3b3b;
 	margin: 0 0 40px 0;
-	line-height: 32px;
+	line-height: 26px;
 }
 
-.made_user p{ 
-	font-size: 18px; 
-	font-weight: 700;
+.made_user p {
+	font-size: 16px;
+	font-weight: 400;
 	color: #000;
-} 
+}
 
 .made_user h4 {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 700;
 	color: #000;
 	margin-bottom: 5px;
@@ -1196,7 +1220,7 @@ ul li a,a{
 .made_single {
 	background: #F7F6FE;
 	padding: 25px;
-	height: 430px;
+	height: 370px;
 	position: relative;
 	margin-bottom: 55px;
 	border-radius: 15px;
@@ -1209,6 +1233,77 @@ ul li a,a{
 	bottom: -10px;
 	right: 15px;
 }
+
+.overview_img {
+	display: flex;
+	gap: 70px;
+	margin-bottom: 25px;
+}
+
+.team_content .after_h3 a,
+.team_content h4,
+.team_content h3,
+.team_content p{
+	color: #fff !important;
+}
+
+.blog_post_text {
+	padding: 20px 0;
+}
+
+.single_work_item.single_blog_post{
+	width: 90% !important;
+	display: block;
+}
+
+.blog_post_text span {
+	font-size: 12px;
+	color: #231116;
+}
+
+.blog_post_text p {
+	font-size: 18px;
+	color: #231116;
+	margin-top: 5px;
+}
+
+.global_award_area {
+	background: url(../images/global/bg.png) no-repeat scroll center center / cover; 
+}
+
+.global_title h4,
+.global_title h3 {
+	color: #fff;
+}
+
+.global_item_content h4 {
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom: 14px;
+}
+
+.global_item_content p {
+	color: #fff;
+	font-size: 16px; 
+	margin-bottom: 14px;
+}
+
+.global_item_content i {
+	color: #fff;
+	margin-top: 4px;
+}
+
+.global_item_content ul li {
+	display: flex;
+	gap: 17px;
+}
+
+.global_award_img {
+	margin-top: 45px;
+}
+
+
 
 /*======================  End Page  ======================*/
 
