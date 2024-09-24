@@ -75,7 +75,8 @@ $(document).ready(function(){
 
 	// Made Carousel
 	$('.made_carousel').owlCarousel({
-		items:1,
+		items:3,
+        margin : 20,
 		loop:true,
 		nav: true,
 		dots:true,

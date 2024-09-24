@@ -816,14 +816,13 @@ ul li a,a{
 }
 
 .made_carosel_content {
-	width: 100%; 
-	margin-top: 40px;
+	width: 100%;  
 }
 
 .made_carosel_content > p {
 	font-size: 20px;
 	color: #3b3b3b;
-	margin: 25px 0 40px 0;
+	margin: 0 0 40px 0;
 	line-height: 32px;
 }
 
@@ -1190,6 +1189,26 @@ ul li a,a{
 	color: #110e0e;
 }
 
+.deep_box_btn{
+	margin-top: 25px;
+}
+
+.made_single {
+	background: #F7F6FE;
+	padding: 25px;
+	height: 430px;
+	position: relative;
+	margin-bottom: 55px;
+	border-radius: 15px;
+}
+
+.made_carousel_arrow img {
+	width: 40px !important;
+	transform: rotate(-180deg);
+	position: absolute;
+	bottom: -10px;
+	right: 15px;
+}
 
 /*======================  End Page  ======================*/
 
