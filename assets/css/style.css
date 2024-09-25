@@ -238,9 +238,9 @@ ul li a,a{
 	content: "";
 	position: absolute;
 	left: 0;
-	bottom: -23px;
-	width: 90px;
-	height: 5px;
+	bottom: -12px;
+	width: 57px;
+	height: 4px;
 	background: #f00d0d;
 }
 
@@ -248,6 +248,7 @@ ul li a,a{
 	font-size: 20px;
 	color: #000;
 	margin-bottom: 50px;
+	text-align: justify;
 }
 
 .subscribe_text_left {
@@ -617,8 +618,8 @@ ul li a,a{
 }
 
 .slider_carousel .owl-dot span {
-	width: 15px !important;
-	height: 15px !important;
+	width: 10px !important;
+	height: 10px !important;
 }
 
 .slide_down_icon a i {
@@ -1114,12 +1115,11 @@ ul li a,a{
     }
 }
 
-.contact_next_btn button ,
-.contact_btn_prev button {
+.contact_next_btn button, .contact_btn_prev button {
 	background: #F00D0D;
 	border: none;
 	color: #fff;
-	padding: 18px;
+	padding: 8px 10px;
 	font-size: 16px;
 	display: inline-block;
 	/* transform: rotate(-90deg); */
@@ -1139,17 +1139,17 @@ ul li a,a{
 .right_form_contact {
 	position: fixed;
 	z-index: 99;
-	right: -59px;
+	right: -57px;
 	top: 50%;
 }
 
-.btn_black_contact{ 
-	padding: 18px 10px !important;
-	border-radius:0 10px 10px   0;
+.btn_black_contact {
+	padding: 12px 10px !important;
+	border-radius: 0 10px 0 0;
 }
 
 .btn_red_contact{ 
-	border-radius: 10px 0 0  10px;
+	border-radius: 10px 0 0  0;
 }
 
 .btn_next {
@@ -1213,6 +1213,22 @@ ul li a,a{
 	color: #110e0e;
 }
 
+.form_title h2 {
+	position: relative;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.form_title h2::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	width: 30px;
+	height: 3px;
+	background: #f00d0d;
+}
+
 .deep_box_btn{
 	margin-top: 25px;
 }
@@ -1220,15 +1236,14 @@ ul li a,a{
 .made_single {
 	background: #F7F6FE;
 	padding: 25px;
-	height: 400px;
+	height: 363px;
 	position: relative;
 	margin-bottom: 55px;
 	border-radius: 15px;
 }
 
 .made_carousel_arrow img {
-	width: 40px !important;
-	transform: rotate(-180deg);
+	width: 40px !important; 
 	position: absolute;
 	bottom: -10px;
 	right: 15px;
@@ -1248,7 +1263,7 @@ ul li a,a{
 }
 
 .blog_post_text {
-	padding: 20px 0;
+	padding: 10px 0;
 }
 
 .single_work_item.single_blog_post{
@@ -1259,6 +1274,7 @@ ul li a,a{
 .blog_post_text span {
 	font-size: 12px;
 	color: #231116;
+	text-transform: uppercase;
 }
 
 .blog_post_text p {
@@ -1268,7 +1284,7 @@ ul li a,a{
 }
 
 .global_award_area {
-	background: url(../images/global/bg.png) no-repeat scroll center center / cover; 
+	background: url(../images/global/bg.png) no-repeat fixed center center / cover; 
 }
 
 .global_title h4,
@@ -1281,6 +1297,7 @@ ul li a,a{
 	font-size: 18px;
 	text-transform: uppercase;
 	margin-bottom: 14px;
+	font-weight: 700;
 }
 
 .global_item_content p {

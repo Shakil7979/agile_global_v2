@@ -2,6 +2,9 @@
     .slide_down_icon a i {
         font-size: 44px; 
     } 
+    .made_single { 
+        height: 400px; 
+    }
     
 }
 @media all and (max-width: 1199px){

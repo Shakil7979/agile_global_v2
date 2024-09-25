@@ -78,8 +78,8 @@ $(document).ready(function(){
 		items:3,
         margin : 20,
 		loop:true,
-		nav: false,
-		dots:false,
+		nav: true,
+		dots:true,
 		autoplay:true,
 		navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
         responsive : { 
