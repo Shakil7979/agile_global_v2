@@ -360,7 +360,7 @@ $(document).ready(function() {
  
     $('.btn_red_contact').on('click', function() {
         if (isClosed) {
-            $('.form_hover').stop().animate({ right: '55px' }, 500);
+            $('.form_hover').stop().animate({ right: '40px' }, 500);
         } else {
             $('.form_hover').stop().animate({ right: '-600px' }, 500);
         }
@@ -369,7 +369,7 @@ $(document).ready(function() {
  
     $('.btn_red_contact, .form_hover').on('mouseenter', function() {
         if (isClosed) {
-            $('.form_hover').stop().animate({ right: '55px' }, 500);
+            $('.form_hover').stop().animate({ right: '40px' }, 500);
         }
     });
  

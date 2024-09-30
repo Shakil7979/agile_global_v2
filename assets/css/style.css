@@ -503,6 +503,7 @@ ul li a,a{
 	position: relative;
 	margin-bottom: 30px;
 	width: 88%;
+	display: block;
 }
 
 .single_deep_item::after {
@@ -626,14 +627,23 @@ ul li a,a{
 	height: 10px !important;
 }
 
+.slider_carousel .owl-dot.active span
+{ 
+	width: 13px !important;
+	height: 13px !important;
+}
 .slide_down_icon a i {
 	font-size: 65px;
 	color: #fff;
 }
 
+.owl-dots {
+	align-items: center;
+}
+
 .slide_down_icon {
 	position: absolute;
-	bottom: 32px;
+	bottom: 35px;
 	z-index: 99;
 	left: 0;
 	right: 0;
@@ -705,7 +715,8 @@ ul li a,a{
 
 
 .footer_main {
-	padding: 25px 0;
+	padding: 35px 0;
+	background: #000;
 }
 
 .footer_top_row {
@@ -728,6 +739,7 @@ ul li a,a{
 
 .footer_logo h4 {
 	font-size: 18px;
+	color: #fff;
 	font-family: "Inter", sans-serif;
 }
 
@@ -747,13 +759,16 @@ ul li a,a{
 	text-transform: uppercase;
 	margin-bottom: 5px;
 	color: #1a1628;
+	color: #fff;
 }
 
 .footer_bottom_left a,
-.footer_bottom_left p,
+.footer_bottom_left p{ 
+	color: #1a1628;
+}
 .footer_single a ,
 .footer_single p {
-	color: #1a1628;
+	color: #a7a7a7;
 }
 
 
@@ -787,6 +802,7 @@ ul li a,a{
 	color: #f00d0d;
 	background: transparent;
 	border: none;
+	font-size: 12px;
 }
 
 .footer_top_to_back button i{
@@ -1345,6 +1361,28 @@ ul li a,a{
 
 .global_award_img {
 	margin-top: 45px;
+}
+
+
+ 
+  
+ 
+
+.down-arrow { 
+	position: absolute;
+	animation: jumpInfinite 1.5s infinite;
+}
+
+@keyframes jumpInfinite {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-20px);
+	}
+	100% {
+		transform: translateY(0);
+	}
 }
 
 
