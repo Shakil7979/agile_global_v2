@@ -614,12 +614,12 @@ ul li a,a{
 
 .slider_carousel .owl-dots {
 	position: absolute;
-	bottom: 0;
-	left: 30px; 
-	flex-direction: column;
+	bottom: 20px;
+	left: 0; 
 	display: flex;
-	margin: auto 0;
-	top: 50%;
+	margin: auto 0; 
+	right: 0;
+	justify-content: center;
 }
 
 .slider_carousel .owl-dot span {
@@ -643,7 +643,7 @@ ul li a,a{
 
 .slide_down_icon {
 	position: absolute;
-	bottom: 35px;
+	bottom: 60px;
 	z-index: 99;
 	left: 0;
 	right: 0;
