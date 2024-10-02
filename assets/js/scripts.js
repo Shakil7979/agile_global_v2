@@ -385,3 +385,7 @@ $(document).ready(function() {
     });
 });
 
+
+$(document).ready(function() {  
+    $('.slider_carousel .owl-dots').addClass('container'); 
+});

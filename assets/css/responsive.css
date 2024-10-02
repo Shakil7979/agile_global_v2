@@ -51,6 +51,13 @@
 	.slider_3 { 
         background: #000816;
     }
+    .slider_carousel .owl-dots { 
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .slide_down_icon { 
+        bottom: 51px; 
+    }
     .made_single { 
         height: auto; 
         padding-bottom: 36px;
