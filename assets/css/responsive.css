@@ -5,8 +5,8 @@
     .made_single { 
         height: 400px; 
     }
-    
 }
+
 @media all and (max-width: 1199px){
     .logo img {
         width: 175px;
@@ -50,11 +50,7 @@
 	.slider_2 ,
 	.slider_3 { 
         background: #000816;
-    }
-    .slider_carousel .owl-dots { 
-        margin: 0 auto;
-        justify-content: center;
-    }
+    } 
     .slide_down_icon { 
         bottom: 51px; 
     }
@@ -537,8 +533,8 @@
     .form_hover { 
         max-width: 300px; 
     }
-    .slider_carousel .owl-dots { 
-        left: 6px; 
+    .slider_carousel .owl-dots {
+        left: 33px;
     }
     .form_group textarea, .form_group input {
  
